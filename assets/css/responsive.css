@@ -175,6 +175,14 @@
     justify-content: space-between;
   }
 
+  .smallCta__figure{
+    display: initial;
+  }
+
+  .smallCta__figure img {
+    display: initial;
+  }
+
   /* BANNER SECTION */
   .banner {
     align-items: flex-end;
