@@ -145,7 +145,8 @@ main {
   align-items: center;
   display: flex;
   grid-column-start: 3;
-  justify-content: space-between;
+  justify-content: flex-end;
+
 }
 
 .buttonWrapper .coraButton,
@@ -195,8 +196,7 @@ main {
 .hero__info {
   display: flex;
   flex-direction: column;
-  max-width: 530px;
-
+  padding-top: 40px;
   width: 100%;
 }
 
@@ -206,6 +206,7 @@ main {
   font-weight: 400;
   line-height: 40px;
   margin-bottom: 49px;
+  text-align: center;
 }
 
 .hero__img {
@@ -293,6 +294,7 @@ main {
 .aboutCta {
   display: flex;
   flex-direction: column-reverse;
+  margin-bottom: 30px;
 }
 
 .aboutCta__info h3 {
@@ -313,7 +315,6 @@ main {
 .aboutCta__img img {
   height: 100%;
   object-fit: cover;
-  margin-top: 30px;
   width: 100%;
 }
 

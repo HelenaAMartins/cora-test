@@ -9,6 +9,10 @@
     display: initial;
   }
 
+  .buttonWrapper {
+    justify-content: space-between;
+  }
+
   .mobileLoginButtons {
     display: none;
   }
@@ -26,6 +30,8 @@
   .hero__info h1 {
     font-size: 52px;
     line-height: 55px;
+    max-width: 530px;
+    text-align: left;
   }
 
   .hero__img {
