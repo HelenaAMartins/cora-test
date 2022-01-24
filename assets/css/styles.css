@@ -1,10 +1,10 @@
 /* GLOBALS */
 @import url("font.css");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap");
 
 body {
-  background-color: #FAFAFA;
-  font-family: 'Avenir LT Std', 'Montserrat', sans-serif;
+  background-color: #fafafa;
+  font-family: "Avenir LT Std", "Montserrat", sans-serif;
 }
 
 main {
@@ -74,29 +74,25 @@ main {
 }
 
 .closeButton {
-  align-items: center;
   background: #fe3e6d;
   border: 0;
   border-radius: 50%;
   color: #fff;
   cursor: pointer;
-  display: flex;
-  flex-flow: column nowrap;
   font-size: 25px;
   height: 40px;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
   position: absolute;
   right: 24px;
   top: 24px;
-  transition: all 150ms;
+  transition: all 0.5s;
   width: 40px;
 }
 
-.closeButton:hover {
-  background: #df365f;
-  transform: rotateZ(90deg);
+@media (hover: hover) {
+  .closeButton:hover {
+    background: #df365f;
+    transform: rotateZ(90deg);
+  }
 }
 
 .headerMain__wrap {
@@ -146,7 +142,6 @@ main {
   display: flex;
   grid-column-start: 3;
   justify-content: flex-end;
-
 }
 
 .buttonWrapper .coraButton,
